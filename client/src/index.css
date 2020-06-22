@@ -1,0 +1,37 @@
+* {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+html,
+body {
+  max-height: 800px;
+  background-color: #e5eaf5 !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ant-list-item-meta-content {
+  max-width: 500px;
+  overflow-x: scroll;
+}
+
+.ant-list-item-meta-title {
+  font-size: 20px !important;
+  color: #494D5F !important;
+}
+
+.ant-list-item-meta-description {
+  display: flex;
+  color: #494D5F !important;
+}
+
+.chatapp {
+  background-color: #E5EAF5;
+}
